@@ -1,18 +1,18 @@
 {
   "color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
+  "ensure_newline_at_eof_on_save": true,
   "font_size": 10,
+  "highlight_line": false,
+  "highlight_modified_tabs": true,
   "hot_exit": true,
   "ignored_packages":
   [
     "Vintage"
   ],
-  "rulers":
+  "folder_exclude_patterns":
   [
-    120
+  "*/node_modules/*"
   ],
-  "ensure_newline_at_eof_on_save": true,
-  "highlight_line": true,
-  "highlight_modified_tabs": true,
   "index_exclude_patterns":
   [
     "*.log",
@@ -20,6 +20,10 @@
     "*/bundle.js"
   ],
   "remember_open_files": true,
+  "rulers":
+  [
+    120
+  ],
   "tab_size": 2,
   "translate_tabs_to_spaces": true
 }
